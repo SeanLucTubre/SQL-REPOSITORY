@@ -1,0 +1,19 @@
+create table blades (id integer primary key, blade_type text, length integer, metal text, cost integer);
+
+insert into blades values (1, "scimitar", 30, "iron", 75);
+insert into blades values (2, "arming_sword", 38, "steel", 115);
+insert into blades values (3, "sabre", 45, "steel", 137);
+insert into blades values (4, "longsword", 50, "iron", 112);
+insert into blades values (5, "dagger", 9, "iron", 45);
+insert into blades values (6, "mace", 24, "steel", 84);
+insert into blades values (7, "kopesch", 40, "iron", 178);
+insert into blades values (8, "bastard_sword", 46, "iron", 136);
+insert into blades values (9, "rapier", 37, "steel", 107);
+insert into blades values (10, "katana", 41, "steel", 190);
+insert into blades values (11, "claymore", 61, "steel", 270);
+insert into blades values (12, "dirk", 9, "steel", 55);
+insert into blades values (13, "falchion", 34, "iron", 142);
+insert into blades values (14, "kopis", 32, "bronze", 185);
+insert into blades values (15, "broadsword", 39, "iron", 125);
+SELECT * FROM blades order by id;
+select avg(cost) from blades
