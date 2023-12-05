@@ -1,3 +1,0 @@
-create table books (id integer primary key, title text, author text, publisher text);
-
-insert into books values (1, "Iron Flame", "Rebecca Yarros", "Entangled: Red Tower Books");
